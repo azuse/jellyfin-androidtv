@@ -178,12 +178,13 @@ public class PhotoPlayerActivity extends FragmentActivity {
                 }
                 break;
 
-            case KeyEvent.KEYCODE_DPAD_UP:
             case KeyEvent.KEYCODE_DPAD_DOWN:
                 if (mPopupPanelVisible) hideThumbPanel();
                 else showThumbPanel();
                 return true;
 
+            case KeyEvent.KEYCODE_DPAD_UP:
+            case KeyEvent.KEYCODE_DPAD_CENTER:
             case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
             case KeyEvent.KEYCODE_MEDIA_PLAY:
                 if (handlePlayKey())
