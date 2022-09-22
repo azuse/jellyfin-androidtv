@@ -183,6 +183,7 @@ public class PhotoPlayerActivity extends FragmentActivity {
                 else showThumbPanel();
                 return true;
 
+                
             case KeyEvent.KEYCODE_DPAD_UP:
             case KeyEvent.KEYCODE_DPAD_CENTER:
             case KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE:
